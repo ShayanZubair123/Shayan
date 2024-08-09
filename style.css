@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images\ \(1\).jpg);
+}
+
+.container {
+    width: 35%;
+    height: 83vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(30, 29, 29);
+    border-radius: 15px;
+    border: 1px solid ;
+    box-shadow: 0px 3px 15px rgb(113 115 119 / 50%);
+
+
+}
+
+
+.button_div button {
+    height: 80px;
+    width: 80px;
+    margin-right: 5px;
+    border-radius: 50%;
+    margin-top: 10px;
+    font-size: 30px;
+    background-color: rgb(30, 29, 29);
+    box-shadow: -8px -8px 15px rgb(255 255 255 / 10%);
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+
+}
+
+.button_div {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.display input {
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 34px;
+    outline: none;
+    background-color: rgb(30, 29, 29) !important;
+    color: white;
+    padding: 5px;
+    border: transparent;
+    cursor: pointer;
+    margin-bottom: 5px;
+
+
+}
+
+body h1 {
+    color: white !important;
+}
+
+
+
+@media (max-width:1110px) {
+    .container {
+        width: 40%;
+        height: 90vh;
+    }
+
+    .button_div button {
+        margin-top: 12px;
+    }
+
+}
+
+@media (max-width:1001px) {
+    .display input {
+        width: 320px;
+        height: 45px;
+    }
+
+
+    .button_div button {
+        height: 70px;
+        width: 70px;
+    }
+
+    .button_div {
+        width: 300px;
+    }
+
+    .container {
+
+        height: 85vh;
+    }
+
+    .button_div button {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:865px) {
+    .display input {
+        width: 290px;
+        height: 40px;   
+    }
+
+    .button_div button {
+        height: 60px;
+        width: 60px;
+    }
+
+    .button_div button {
+        margin-top: 25px;
+    }
+
+    .display input {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:807px) {
+    .display input {
+        width: 270px;
+        height: 40px;
+    }
+}
+
+@media (max-width:756px) {
+    .display input {
+        width: 260px;
+        height: 50px;
+    }
+
+    .button_div button {
+        height: 50px;
+        width: 50px;
+    }
+
+    .button_div {
+        width: 250px;
+    }
+
+    .button_div button {
+        margin-top: 25px;
+    }
+
+    .container {
+
+        height: 78vh;
+    }
+}
+
+@media (max-width:713px) {
+    .display input {
+        width: 240px;
+        height: 40px;
+    }
+
+    .button_div button {
+        margin-top: 26px;
+    }
+}
+
+@media (max-width:673px) {
+    .display input {
+        width: 220px;
+        height: 40px;
+    }
+
+    .button_div button {
+        margin-top: 20px;
+    }
+
+    .container {
+
+        height: 72vh;
+    }
+}
+
+@media (max-width:617px) {
+    .button_div button {
+        font-size: 23px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .button_div {
+        width: 200px;
+    }
+
+    .container {
+
+        height: 65vh;
+    }
+
+    .display input {
+        width: 200px;
+        height: 40px;
+    }
+
+}
+
+@media (max-width:563px) {
+
+    .display input {
+        width: 180px;
+        height: 30px;
+    }
+}
+
+@media (max-width:535px) {
+    .display input {
+        width: 160px;
+        height: 30px;
+    }
+
+}
